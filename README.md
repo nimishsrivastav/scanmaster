@@ -35,13 +35,19 @@ First we need to make the `scanmaster.py` file executable which can be done by u
 `chmod +x scanmaster.py`
 
 ```
-./main.py
+./scanmaster.py
+ ____                  __  __           _            
+/ ___|  ___ __ _ _ __ |  \/  | __ _ ___| |_ ___ _ __ 
+\___ \ / __/ _` | '_ \| |\/| |/ _` / __| __/ _ \ '__|
+ ___) | (_| (_| | | | | |  | | (_| \__ \ ||  __/ |   
+|____/ \___\__,_|_| |_|_|  |_|\__,_|___/\__\___|_|   
+                                                     
 
 usage: 
         ./scanmaster.py -f <file_path> [-y <yara_rules>] [-k <api_key>] [-o <output_dir>]
         ./scanmaster.py -d <directory_path> [-y <yara_rules>] [-k <api_key>] [-o <output_dir>]
 
-Static Malware Analysis Framework
+ScanMaster: A Static Malware Analysis Framework
 
 options:
   -h, --help            show this help message and exit
