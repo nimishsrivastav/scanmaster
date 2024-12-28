@@ -1,4 +1,4 @@
-# Static Malware Analysis Framework
+# ScanMaster: A Static Malware Analysis Framework
 
 This framework is designed for static analysis of malware. It supports scanning individual files or entire directories, extracting metadata, performing YARA rule-based analysis, querying VirusTotal for threat intelligence, and disassembling binaries for further analysis. The results are saved in JSON format, which can be used for further investigation and reporting.
 
@@ -67,7 +67,7 @@ Example,
 - To analyze all files in a directory,
 `./scanmaster.py -d /path/to/directory -y /path/to/yara-rules -k <your_virustotal_api_key> -o /path/to/output/directory`
 
-For running the tool on Windows, simply execute the batch script `scanmaster.bat` with the options being the same as in Linux command.
+For running the tool on Windows, simply execute the batch script [scanmaster.bat](scanmaster.bat) with the options being the same as in Linux command.
 
 **Note:** All options are optional except from -f (for file) and -d (for directory).
 
