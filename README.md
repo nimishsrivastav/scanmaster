@@ -23,7 +23,7 @@ This framework is designed for static analysis of malware. It supports scanning 
 Above requirements can be downloaded using below command:
 `pip install -r requirements.txt`
 
-*For interacing with Radare2, the system is requried to have Radare2 installed, which can be installed from [here]([https://github.com/radareorg/radare2]).
+*For interacting with Radare2, the system is requried to have Radare2 installed, which can be installed from [here](https://github.com/radareorg/radare2).
 
 To make the framework setup hassle-free, user can execute following scripts without installing any other dependencies:
 - For Windows, [setup.bat](setup.bat)
