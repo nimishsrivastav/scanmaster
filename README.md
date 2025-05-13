@@ -1,5 +1,7 @@
 # ScanMaster: A Static Malware Analysis Framework
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/nimishsrivastav/scanmaster)
+
 This framework is designed for static analysis of malware. It supports scanning individual files or entire directories, extracting metadata, performing YARA rule-based analysis, querying VirusTotal for threat intelligence, and disassembling binaries for further analysis. The results are saved in JSON format, which can be used for further investigation and reporting.
 
 ## Features
